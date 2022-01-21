@@ -9,20 +9,31 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Project-Eight</title>
 </head>
 <body>
-<header>
-    <div class="top_header">
+<header id="header_area">
+    <div class="top_header container">
         <div class="min_menu">
             <nav>
                 <ul>
-                    <li><a href="#">HOMEPAGE <br><span>test text here</span></a></li>
-                    <li><a href="#">STYLE DEMO <br><span>test text here</span></a></li>
-                    <li><a href="#">FULL WIDTH <br><span>test text here</span></a></li>
-                    <li><a href="#">PORTFOLIO <br><span>test text here</span></a></li>
-                    <li><a href="#">GALLERY <br><span>test text here</span></a></li>
-                    <li><a href="#">DROPDOWN <br><span>test text here</span></a></li>
+                    <li><a href="#header_area" class="active">HOMEPAGE <br><span style="color: #000;">test text here</span></a></li>
+                    <li><a href="#work_area">STYLE DEMO <br><span style="color: #000;">test text here</span></a></li>
+                    <li><a href="#about_area">About us<br><span style="color: #000;">test text here</span></a></li>
+                    <li><a href="#work_area">PORTFOLIO <br><span style="color: #000;">test text here</span></a></li>
+                    <li><a href="#footer_area">Contuct <br><span style="color: #000;">test text here</span></a></li>
+                    <li><a href="#">DROPDOWN <br><span style="color: #000;">test text here</span></a>
+                        <ul>
+                            <li><a href="#">Drope Menu</a></li>
+                            <li><a href="#">Drope Menu</a></li>
+                            <li><a href="#">Drope Menu</a></li>
+                            <li><a href="#">Drope Menu</a></li>
+                            <li><a href="#">Drope Menu</a></li>
+                            <li><a href="#">Drope Menu</a></li>
+                            <li><a href="#">Drope Menu</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -36,10 +47,182 @@
             </ul>
         </div>
     </div>
+    <div class="main_header">
+        <div class="container inner_main_header">
+            <div class="logo_area">
+                <a href="#header_area"><img src="img/logo.png" alt="Logo"></a>
+            </div>
+            <div class="search_area">
+                <form action="#" method="get">
+                    <div class="input_area">
+                        <input type="search" name="search" placeholder="Search Our Website...">
+                    </div>
+                    <div class="btn_area">
+                        <input type="button" value="SEARCH">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="header_banner">
+        <div class="container">
+            <img src="img/banner_imge.jpg" alt="Climbing Muntain Image">
+        </div>
+    </div>
 </header>
-    
-
-
+<div class="navition_area">
+    <div class="container inner_navition">
+        <ul>
+            <Li><a href="#">You Are Here</a> <i class="fas fa-angle-double-right"></i></Li>
+            <Li><a href="#" class="active">Homepage</a></Li>
+        </ul>
+    </div>
+</div>
+<section id="baner_area">
+    <div class="container">
+        <div class="row">
+            <div class="inner_baner_area">
+                <h1>Wellcome Title</h1>
+                <p>“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non diam erat. In fringilla massa ut nisi ullamcorper pellentesque „</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="about_area">
+    <div class="container">
+        <div class="row">
+            <div class="inner_abour_area">
+                <div class="review_area">
+                    <h2>What People Say About Us</h2>
+                    <div class="child_review">
+                        <h3>Tommy Tanker - <span>CEO</span></h3>
+                        <p class="margin">Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoreet tincidunt ut vel velit. Idenim semper pellente velis felit ac nullam pretium morbi.</p>
+                    </div>
+                    <div class="child_review">
+                        <h3>Tommy Tanker - <span>CEO</span></h3>
+                        <p>Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoreet tincidunt ut vel velit. Idenim semper pellente velis felit ac nullam pretium morbi.</p>
+                    </div>
+                </div>
+                <div class="tem_area">
+                    <h2>Meet The Team</h2>
+                    <div class="child_tem">
+                        <div class="team_image">
+                            <img src="img/download.jpeg" alt="TEAM imege one">
+                        </div>
+                        <div class="info_are">
+                            <h3>Persons Name Here</h3>
+                            <p>Sednulla nam nibh a nibh eu urna facinia mauristibulus sit urna. Vitaerisus lobortis proin elit et curabituris elit estibulum cursus iacus orci.</p>
+                        </div>
+                    </div>
+                    <div class="child_tem">
+                        <div class="team_image">
+                            <img src="img/Woman.jpeg" alt="TEAM imege Two">
+                        </div>
+                        <div class="info_are">
+                            <h3>Persons Name Here</h3>
+                            <p>Sednulla nam nibh a nibh eu urna facinia mauristibulus sit urna. Vitaerisus lobortis proin elit et curabituris elit estibulum cursus iacus orci.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="work_area">
+    <div class="container">
+        <div class="row">
+            <div class="inner_work_area">
+                <div class="child_work">
+                    <h2>Latest Work</h2>
+                    <p>Justoid nonummy laoreet phasellen penatoque in antesque pellus elis eget tincidunt. Inteligula congue id elis donec sce sagittis intes.</p>
+                </div>
+                <div class="child_work">
+                    <img src="img/pexels-ella.jpg" alt="imge">
+                    <p>Cursuspe natis accum ut cura bitur nulla tellus tor ames.</p>
+                    <a href="#">View This Project »</a>
+                </div>
+                <div class="child_work">
+                    <img src="img/pexels-kulbi.jpg" alt="imge">
+                    <p>Cursuspe natis accum ut cura bitur nulla tellus tor ames.</p>
+                    <a href="#">View This Project »</a>
+                </div>
+                <div class="child_work">
+                    <img src="img/boat.jpg" alt="imge">
+                    <p>Cursuspe natis accum ut cura bitur nulla tellus tor ames.</p>
+                    <a href="#">View This Project »</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer id="footer_area">
+    <div class="footer_top">
+        <div class="container">
+            <div class="row">
+                <div class="inner_top_footer">
+                    <img src="img/twitter.png" alt="Twitter">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et mag parturient.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main_footer">
+        <div class="container">
+            <div class="inner_main_footer">
+                <div class="child_footer">
+                    <h4>CONTACT DETAILS</h4>
+                    <div class="contucts_details">
+                        <ul>
+                            <li>Company Name</li>
+                            <li>Street Name & Number</li>
+                            <li>Gazipur</li>
+                            <li class="fonts">1346</li>
+                            <li>Tel: xxxxx xxxxxxxxxx</li>
+                            <li>Fax: xxxxx xxxxxxxxxx</li>
+                            <li>Email: mdjubaerm16247@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="child_footer">
+                    <h4>QUICK LINKS</h4>
+                    <div class="vendors_link">
+                        <ul>
+                            <li><a href="#">Link Text Here</a></li>
+                            <li><a href="#">Link Text Here</a></li>
+                            <li><a href="#">Link Text Here</a></li>
+                            <li><a href="#">Link Text Here</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="child_footer">
+                    <h4>FROM THE BLOG</h4>
+                    <h5>Blog Post Title</h5>
+                    <span>Posted by Admin on 00.00.0000</span>
+                    <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed facilispede estibulum.</p>
+                    <a href="#" class="btn">Read More »</a>
+                </div>
+                <div class="child_footer">
+                    <h4>GRAB OUR NEWSLETTER</h4>
+                    <form action="https://formspree.io/f/xayvqpeb" target="-blank" method="post">
+                        <input type="text" name="Name" placeholder="Name*" required>
+                        <input type="email" name="E-mail" placeholder="Email*" required>
+                        <input type="submit" value="SUBMIT">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Copyright_area">
+        <div class="container">
+            <div class="left_area">
+                <p>Copyright © 2013 - All Rights Reserved - Domain Name</p>
+            </div>
+            <div class="right_area">
+                <p>Template by OS Templates</p>
+            </div>
+        </div>
+    </div>
+</footer>
 
 <script src="js/html5shiv.min.js"></script>
 <script src="js/respond.min.js"></script>
