@@ -3,48 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">`
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome.min.css">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>Project-Eight</title>
 </head>
 <body>
 <header id="header_area">
-    <div class="top_header container">
-        <div class="min_menu">
-            <nav>
+    <div class="top_header">
+        <div class="container">
+            <div class="min_menu">
+                <nav>
+                    <ul>
+                        <li><a href="#header_area" class="active">HOMEPAGE <br><span style="color: #000;">test text here</span></a></li>
+                        <li><a href="#work_area">STYLE DEMO <br><span style="color: #000;">test text here</span></a></li>
+                        <li><a href="#about_area">About us<br><span style="color: #000;">test text here</span></a></li>
+                        <li><a href="#work_area">PORTFOLIO <br><span style="color: #000;">test text here</span></a></li>
+                        <li><a href="#footer_area">Contuct <br><span style="color: #000;">test text here</span></a></li>
+                        <li><a href="#">DROPDOWN <br><span style="color: #000;">test text here</span></a>
+                            <ul>
+                                <li><a href="#">Drope Menu</a></li>
+                                <li><a href="#">Drope Menu</a></li>
+                                <li><a href="#">Drope Menu</a></li>
+                                <li><a href="#">Drope Menu</a></li>
+                                <li><a href="#">Drope Menu</a></li>
+                                <li><a href="#">Drope Menu</a></li>
+                                <li><a href="#">Drope Menu</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="social_area">
                 <ul>
-                    <li><a href="#header_area" class="active">HOMEPAGE <br><span style="color: #000;">test text here</span></a></li>
-                    <li><a href="#work_area">STYLE DEMO <br><span style="color: #000;">test text here</span></a></li>
-                    <li><a href="#about_area">About us<br><span style="color: #000;">test text here</span></a></li>
-                    <li><a href="#work_area">PORTFOLIO <br><span style="color: #000;">test text here</span></a></li>
-                    <li><a href="#footer_area">Contuct <br><span style="color: #000;">test text here</span></a></li>
-                    <li><a href="#">DROPDOWN <br><span style="color: #000;">test text here</span></a>
-                        <ul>
-                            <li><a href="#">Drope Menu</a></li>
-                            <li><a href="#">Drope Menu</a></li>
-                            <li><a href="#">Drope Menu</a></li>
-                            <li><a href="#">Drope Menu</a></li>
-                            <li><a href="#">Drope Menu</a></li>
-                            <li><a href="#">Drope Menu</a></li>
-                            <li><a href="#">Drope Menu</a></li>
-                        </ul>
-                    </li>
+                    <li><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><i class="fab fa-twitter"></i></a></li>
+                    <li><i class="fab fa-pinterest"></i></a></li>
+                    <li><i class="fab fa-google-plus-g"></i></a></li>
+                    <li><i class="fas fa-rss"></i></a></li>
                 </ul>
-            </nav>
-        </div>
-        <div class="social_area">
-            <ul>
-                <li><i class="fab fa-linkedin-in"></i></a></li>
-                <li><i class="fab fa-twitter"></i></a></li>
-                <li><i class="fab fa-pinterest"></i></a></li>
-                <li><i class="fab fa-google-plus-g"></i></a></li>
-                <li><i class="fas fa-rss"></i></a></li>
-            </ul>
+            </div>
         </div>
     </div>
     <div class="main_header">
@@ -78,7 +80,7 @@
         </ul>
     </div>
 </div>
-<section id="baner_area">
+<section id="baner_area" class="stcky_menu">
     <div class="container">
         <div class="row">
             <div class="inner_baner_area">
@@ -224,9 +226,11 @@
     </div>
 </footer>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="js/html5shiv.min.js"></script>
 <script src="js/respond.min.js"></script>
 <script src="js/selectivizr-min.js"></script>
+<script src="js/waypoints.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
