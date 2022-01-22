@@ -77,6 +77,10 @@ ul{
     clear: both;
     display: table;
 }
+.mobile_menu{
+    float: left;
+    display: none;
+}
 .min_menu{
     float: left;
     margin-top: 2px;
