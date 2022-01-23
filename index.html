@@ -15,9 +15,19 @@
 <body>
 <header id="header_area">
     <div class="top_header">
-        <div class="container">
+        <div class="container inner_top_header">
             <div class="mobile_menu">
-                <span>&#9776;</span>
+                <span class="menu" style="color: #fff; cursor: pointer;" onclick="openNav()">&#9776;</span>
+                <div class="overly" id="myNav">
+                    <span class="close" onclick="closeNav()">&times;</span>
+                    <div class="overly_content">
+                        <a href="#header_area" onclick="closeNav()">HOMEPAGE</a>
+                        <a href="#work_area" onclick="closeNav()">STYLE DEMO</a>
+                        <a href="#about_area" onclick="closeNav()">About us</a>
+                        <a href="#work_area" onclick="closeNav()">PORTFOLIO</a>
+                        <a href="#footer_area" onclick="closeNav()">Contuct</a>
+                    </div>
+                </div>
             </div>
             <div class="min_menu">
                 <nav>
@@ -43,11 +53,11 @@
             </div>
             <div class="social_area">
                 <ul>
-                    <li><i class="fab fa-linkedin-in"></i></a></li>
-                    <li><i class="fab fa-twitter"></i></a></li>
-                    <li><i class="fab fa-pinterest"></i></a></li>
-                    <li><i class="fab fa-google-plus-g"></i></a></li>
-                    <li><i class="fas fa-rss"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                    <li><a href="#"><i class="fas fa-rss"></i></a></li>
                 </ul>
             </div>
         </div>
